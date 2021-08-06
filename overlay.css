@@ -1,0 +1,60 @@
+#logo{
+    font-size: 2.5em;
+    font-style: italic;
+    float: left;
+    margin-left: 5%;
+    
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    color: crimson;
+}
+
+.overlay{
+    position: absolute;
+    top: 250px;
+    left: 5px;
+    color: rgb(143, 54, 12);
+    font-size: 2.5em;
+    outline: tomato;
+    outline-style: groove;
+
+
+    
+}
+
+nav{
+    background-color:brown;
+    overflow: auto;
+}
+
+
+
+ul, li{
+    padding: 0;
+    list-style: none;
+
+}
+
+ul{
+    float: right;
+    margin-right: 10%;
+
+}
+
+li{
+    float: left;
+}
+
+nav, a{
+    text-decoration: none;
+    padding: 7px;
+    color:tomato;
+}
+nav,a:hover{
+    color:wheat;
+}
+
+p
