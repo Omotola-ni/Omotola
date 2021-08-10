@@ -1,0 +1,93 @@
+nav{
+display: flex;
+background-color: #1B1BD1;
+justify-content: space-between;
+width: 100%;
+color: white;
+
+}
+
+#logo{
+    font-size: 3rem;
+    margin: 0px;
+    color:white ;
+    margin-left: 10vw;   
+    
+}
+
+ 
+ h1, h2, h3{
+    color: #68CDF0;
+ }
+
+p{
+     text-align:left;
+     color: #046361;
+}
+
+body{
+      background-color: bisque;
+
+}
+
+
+li{
+    list-style: none;
+    color: #1B1BD1;
+}
+
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid blue;
+  border-radius:7px;
+  background-color:#46AEE9;
+  color:white;
+  
+}
+
+select {
+  width: 50%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #46AEE9;
+  color: #f1f1f1;
+}
+
+input[type=submit]{
+   background-color: #195EB3;
+   border: none;
+   color: white;
+   padding: 16px 32px;
+   text-decoration: none;
+   margin: 4px 2px;
+   cursor: pointer;
+}
+ 
+label{
+    color:#195EB3;
+    font-family:Times New roman;
+}
+input[type=email]{
+     width: 50%;
+     padding: 6px 10px;
+     margin: 4px 0;
+     box-sizing: border-box;
+     border: 2px solid blue;
+     border-radius:7px;
+     background-color:#46AEE9;
+     color:white;
+}
+
+input[type=date]{
+    width: 50%
+    padding :8px 10px;
+    margin:4px 0; 
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #46AEE9;
+    border: 2px solid blue;
+}
