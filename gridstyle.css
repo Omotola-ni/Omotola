@@ -1,0 +1,112 @@
+*{
+   box-sizing:border-box;
+  
+}
+body{
+background-color:bisque;}
+
+.col-3 {
+   width: 25%;
+   padding:15px;
+}
+
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.col-9 {
+    width: 75%;
+    background-color: lightslategrey ;
+
+ }
+
+img{
+   width: 100%;
+   height: 50%;
+}
+.container .text-block{
+    position: absolute;
+    background: black;
+    background: rgb(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 0px;
+    bottom: 0px;
+    left: 0px;
+    font-size: 1.2rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+    
+
+    
+ }
+.row::after {
+    content: "";
+    clear: both;
+    display:table;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+  }
+  
+  
+li{
+    list-style:none;
+ }
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+
+   nav, li{
+   display: inline-flex;
+   color: white;
+   list-style-type: none;
+}
+
+
+
+nav{
+    padding: 5px; 
+    text-decoration: none;
+    background-color:#46AEE9;
+    align-self:center;
+    color: white;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+
+li, a{
+    color:white;
+    padding: 5px;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+
+
+
+}
+
+h1, h2, h3{
+   color: #68CDF0;
+}
+
+#logo{
+    font-size: 2rem;
+    margin: 0px;
+    color:white ;
+    margin-left: 10px;
+    }
